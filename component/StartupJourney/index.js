@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "./styles.module.css";
 function StartupJourney() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projects">
       <h1
         style={{
           fontSize: "4.5rem",

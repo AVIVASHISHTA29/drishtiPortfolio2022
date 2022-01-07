@@ -19,49 +19,40 @@ function SkillSet() {
           <div className={styles.skills}>
             <Image
               clasName={styles.imgLogo}
-              src="/assets/figma.png"
-              height="112.5"
-              width="75"
+              src="/assets/xd.png"
+              height="2400"
+              width="2340"
             />
-            <h1>80%</h1>
           </div>
-          <h2 style={{ textAlign: "center", fontWeight: "lighter" }}>Figma</h2>
+          <h2 style={{ textAlign: "center", fontWeight: "lighter" }}>
+            Adobe XD
+          </h2>
         </div>
         <div>
           <div className={styles.skills}>
             <Image
               clasName={styles.imgLogo}
-              src="/assets/figma.png"
-              height="112.5"
-              width="75"
+              src="/assets/html5.png"
+              height="300"
+              width="300"
             />
-            <h1>80%</h1>
           </div>
-          <h2 style={{ textAlign: "center", fontWeight: "lighter" }}>Figma</h2>
+          <h2 style={{ textAlign: "center", fontWeight: "lighter" }}>
+            HTML5 & CSS
+          </h2>
         </div>
         <div>
           <div className={styles.skills}>
             <Image
               clasName={styles.imgLogo}
-              src="/assets/figma.png"
-              height="112.5"
-              width="75"
+              src="/assets/bootstrap.png"
+              height="846"
+              width="912"
             />
-            <h1>80%</h1>
           </div>
-          <h2 style={{ textAlign: "center", fontWeight: "lighter" }}>Figma</h2>
-        </div>
-        <div>
-          <div className={styles.skills}>
-            <Image
-              clasName={styles.imgLogo}
-              src="/assets/figma.png"
-              height="112.5"
-              width="75"
-            />
-            <h1>80%</h1>
-          </div>
-          <h2 style={{ textAlign: "center", fontWeight: "lighter" }}>Figma</h2>
+          <h2 style={{ textAlign: "center", fontWeight: "lighter" }}>
+            Bootstrap
+          </h2>
         </div>
       </div>
     </div>

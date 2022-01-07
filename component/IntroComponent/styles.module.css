@@ -4,7 +4,10 @@
 @media only screen and (max-width: 1000px) {
   .container h1 {
     line-height: 3rem !important;
-    font-size: 3rem !important;
-    margin-bottom: 50px !important;
+    font-size: 2.5rem !important;
+    margin-bottom: 20px !important;
+  }
+  .container {
+    margin-top: 12vh;
   }
 }

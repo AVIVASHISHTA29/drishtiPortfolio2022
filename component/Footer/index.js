@@ -13,28 +13,21 @@ function Footer() {
     <div className={styles.container}>
       <h1>2022 © Drishti Makhijani</h1>
       <div className={styles.rightContainer}>
-        <Link href="/">
+        <Link href="https://instagram.com/_drishti.makhijani?utm_medium=copy_link">
           <FontAwesomeIcon
             className={styles.navLinks2}
             icon={faInstagram}
             style={{ fontSize: "1.3rem" }}
           />
         </Link>
-        <Link href="/">
-          <FontAwesomeIcon
-            className={styles.navLinks2}
-            icon={faFacebook}
-            style={{ fontSize: "1.3rem" }}
-          />
-        </Link>
-        <Link href="/">
+        <Link href="https://www.linkedin.com/in/drishti-makhijani-3418661b4">
           <FontAwesomeIcon
             className={styles.navLinks2}
             icon={faLinkedin}
             style={{ fontSize: "1.3rem" }}
           />
         </Link>
-        <Link href="/">
+        <Link href="mailto:drishtimakhijani01@gmail.com">
           <FontAwesomeIcon
             className={styles.navLinks2}
             icon={faGoogle}
