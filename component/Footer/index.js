@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./styles.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,23 +6,12 @@ import {
   faLinkedin,
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
-function Header() {
+import Link from "next/link";
+
+function Footer() {
   return (
     <div className={styles.container}>
-      <div className={styles.leftContainer}>
-        <Link href="/#aboutme">
-          <p className={styles.navLinks}>About</p>
-        </Link>
-        <Link href="/#projects">
-          <p className={styles.navLinks}>Projects</p>
-        </Link>
-        <Link href="/#achievments">
-          <p className={styles.navLinks}>Experience</p>
-        </Link>
-        <Link href="/#contactme">
-          <p className={styles.navLinks}>Contact Me</p>
-        </Link>
-      </div>
+      <h1>2022 © Drishti Makhijani</h1>
       <div className={styles.rightContainer}>
         <Link href="/">
           <FontAwesomeIcon
@@ -58,4 +46,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Footer;

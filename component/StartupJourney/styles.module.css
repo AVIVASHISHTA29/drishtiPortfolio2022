@@ -1,0 +1,63 @@
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.container {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #000;
+}
+.imgDiv {
+  width: 30%;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.imgDiv h1 {
+  font-size: 1.8rem;
+  font-family: "Spline Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+.imgDiv p {
+  font-size: 1.5rem;
+  color: #999999;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.imgDiv span {
+  -webkit-filter: grayscale(100%) !important; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) !important;
+}
+
+.imgDiv span:hover {
+  -webkit-filter: grayscale(0%) !important; /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%) !important;
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .flexDiv {
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgDiv {
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container h1 {
+    line-height: 3rem !important;
+    font-size: 3rem !important;
+  }
+}

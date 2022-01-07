@@ -2,11 +2,12 @@ import styles from "./styles.module.css";
 
 function ContactMe() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contactme">
       <div className={styles.circularDiv}>
         <h1>Describe Your Project</h1>
         <p>Call Drishti</p>
         <svg
+          className={styles.arrowSvg}
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
           style={{ height: "4rem", margin: 50, marginTop: "10px" }}

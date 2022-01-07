@@ -3,13 +3,16 @@ import styles from "./styles.module.css";
 
 function AboutMe() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="aboutme">
       <div className={styles.leftContainer}>
         <div className={styles.textContainer}>
-          <h1>BIOGRAPHY</h1>
+          <h1>About Me</h1>
           <p>
-            Work for money and design for love! I’m Bruno, an UI/UX Interaction
-            Designer based in Poland.
+            Meet Drishti Makhijani a 20 year old , changing the world one period
+            at a time .she is the founder of project qadira , a CS student,
+            kathak dancer and a visual artist . She has a zest for food life and
+            basically anything that challenges her . She is a go getter by heart
+            and most importantly a sucker for pizza and happy endings .
           </p>
         </div>
         <div className={styles.textContainer}>

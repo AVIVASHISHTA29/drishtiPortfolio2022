@@ -31,7 +31,7 @@
 .imgContainer {
   width: 50%;
   padding: 75px;
-
+  height: fit-content;
   border: 1px solid #999999;
   border-radius: 500px;
 }
@@ -41,4 +41,27 @@
 }
 .rightContainer {
   width: 32%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    margin-top: 0px !important;
+  }
+  .leftContainer {
+    width: 100%;
+    padding: 20px;
+  }
+  .rightContainer {
+    width: 100%;
+    padding: 20px;
+  }
+  .textContainer {
+    margin-top: 30px !important;
+    width: 100%;
+    text-align: center !important;
+  }
+  .imgContainer {
+    width: 100%;
+  }
 }

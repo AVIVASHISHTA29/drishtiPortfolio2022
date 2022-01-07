@@ -24,6 +24,8 @@
 .circularDiv {
   margin-top: 80px;
   height: 500px !important;
+  max-height: 500px;
+  max-width: 500px;
   width: 500px !important;
   padding: 50px;
   border-radius: 50% !important;
@@ -43,6 +45,27 @@
 }
 
 .circularDiv p:hover {
-  transition: all 0.75s cubic-bezier(0, 0, 0.23, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.23, 1);
   background-position: 0%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .circularDiv {
+    width: 275px !important;
+    height: 275px !important;
+    padding: 30px;
+  }
+  .circularDiv p {
+    font-size: 2.3rem;
+    line-height: 3rem;
+    margin-top: 0px;
+  }
+
+  .circularDiv h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .arrowSvg {
+    height: 2rem !important;
+  }
 }

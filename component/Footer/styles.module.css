@@ -1,0 +1,24 @@
+.rightContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #000;
+  height: 100px;
+}
+.container h1 {
+  color: #999999;
+  font-family: "Spline Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}

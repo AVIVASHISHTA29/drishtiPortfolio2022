@@ -33,14 +33,37 @@
 }
 
 .smallerPara {
-  font-size: 1rem !important;
+  font-size: 0.8rem !important;
   font-family: "Spline Sans", sans-serif;
   color: grey;
-  font-weight: 200;
+  font-weight: "bold";
+  letter-spacing: 2px;
+  line-height: 1.5rem;
   text-transform: uppercase;
   margin-top: 0px;
 }
 
 .innerContainer {
   margin-bottom: 75px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding: 20px;
+  }
+  .flexDiv {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .textContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mainHeading {
+    font-size: 3rem !important;
+  }
+  .innerContainer {
+    margin-bottom: 0px !important;
+  }
 }
