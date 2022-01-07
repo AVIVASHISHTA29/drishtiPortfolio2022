@@ -14,7 +14,7 @@ function StartupJourney() {
           lineHeight: "2rem",
         }}
       >
-        Startup Journey{" "}
+        Startup Journey
       </h1>
       <div className={styles.flexDiv}>
         <Link href="https://projectqadira.in">
