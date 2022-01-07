@@ -5,7 +5,9 @@ import { Avatar } from "@material-ui/core";
 import Link from "next/link";
 import React from "react";
 import styles from "./styles.module.css";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import MailIcon from "@mui/icons-material/Mail";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 function MobileViewList() {
   return (
     <List>
@@ -86,6 +88,26 @@ function MobileViewList() {
         </ListItem>
       </Link>
 
+      <div className={styles.rightContainer}>
+        <Link href="https://instagram.com/_drishti.makhijani">
+          <InstagramIcon
+            className={styles.navLinks2}
+            style={{ fontSize: "1.5rem" }}
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/in/drishti-makhijani-3418661b4">
+          <LinkedInIcon
+            className={styles.navLinks2}
+            style={{ fontSize: "1.5rem" }}
+          />
+        </Link>
+        <Link href="mailto:drishtimakhijani01@gmail.com">
+          <MailIcon
+            className={styles.navLinks2}
+            style={{ fontSize: "1.5rem" }}
+          />
+        </Link>
+      </div>
       <hr style={{ color: "#636262", width: "90%", opacity: 0.2 }} />
     </List>
   );

@@ -16,6 +16,7 @@ function StartupJourney() {
       >
         Startup Journey
       </h1>
+      <h2 className={styles.subHeading}>Started At The Age Of 17</h2>
       <div className={styles.flexDiv}>
         <Link href="https://projectqadira.in">
           <div className={styles.imgDiv}>

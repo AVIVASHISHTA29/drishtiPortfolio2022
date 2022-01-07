@@ -30,25 +30,29 @@ function Education() {
         </div>
         <div className={styles.textContainer}>
           <h1>ACHIEVEMENTS</h1>
-          <p>IIT Delhi</p>
+          <p>Indo Russian International Exchange Programme</p>
           <p className={styles.smallerPara}>
-            Merit award for paper presentation
+            Represented India For The Science Talent Programme - Sponsored by
+            Govt. of India
           </p>
-          <p style={{ marginTop: 50 }}>IIT Hyderabad</p>
-          <p className={styles.smallerPara}>1st Prize ELAN</p>
-          <p> Indo Japan Exchange Science Programme</p>
+          <p style={{ marginTop: 50 }}>Indo Japan Exchange Science Programme</p>
           <p className={styles.smallerPara}>
-            Nominated for SAKURA - Fully sponsored by Japan Science And
+            Represented India for SAKURA - Fully sponsored by Japan Science And
             Technology
           </p>
           <p style={{ marginTop: 50 }}>ISSET NASA</p>
           <p className={styles.smallerPara}>Team Challengers Winner</p>
-          <p style={{ marginTop: 50 }}>
-            Indo Russian International Exchange Programme
-          </p>
+          <p>2nd Prize Delhi IIT</p>
           <p className={styles.smallerPara}>
-            Science Talent programme - Sponsored by Govt. of India
+            Toyota ‘Hackathon' – Indian Road Safety
           </p>
+          <p>IIT Delhi</p>
+          <p className={styles.smallerPara}>
+            Merit award for paper presentation
+          </p>
+
+          <p style={{ marginTop: 50 }}>IIT Hyderabad</p>
+          <p className={styles.smallerPara}>1st Prize ELAN</p>
         </div>
 
         <div className={styles.textContainer}>
@@ -65,12 +69,12 @@ function Education() {
             </span>
           </p>
           <p>
-            Core Team Student Council -{" "}
-            <span style={{ color: "#999999" }}>Bennett University</span>
-          </p>
-          <p>
             Co-organiser -{" "}
             <span style={{ color: "#999999" }}>TEDx Bennett University</span>
+          </p>
+          <p>
+            Core Team Student Council -{" "}
+            <span style={{ color: "#999999" }}>Bennett University</span>
           </p>
           <p>
             Vice President -{" "}

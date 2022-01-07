@@ -5,7 +5,7 @@ function ContactMe() {
   return (
     <div className={styles.container} id="contactme">
       <div className={styles.circularDiv}>
-        <h1>Describe Your Project</h1>
+        <h1>Lets get in touch</h1>
         <Link href="mailto:drishtimakhijani01@gmail.com">
           <p>Call Drishti</p>
         </Link>
