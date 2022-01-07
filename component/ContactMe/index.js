@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./styles.module.css";
 
 function ContactMe() {
@@ -5,7 +6,9 @@ function ContactMe() {
     <div className={styles.container} id="contactme">
       <div className={styles.circularDiv}>
         <h1>Describe Your Project</h1>
-        <p>Call Drishti</p>
+        <Link href="mailto:drishtimakhijani01@gmail.com">
+          <p>Call Drishti</p>
+        </Link>
         <svg
           className={styles.arrowSvg}
           xmlns="http://www.w3.org/2000/svg"

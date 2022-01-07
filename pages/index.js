@@ -17,9 +17,9 @@ export default function Home() {
       <div className={styles.container}>
         <IntroComponent />
         <AboutMe />
-        <SkillSet />
         <Education />
         <StartupJourney />
+        <SkillSet />
         <ContactMe />
         <Footer />
       </div>

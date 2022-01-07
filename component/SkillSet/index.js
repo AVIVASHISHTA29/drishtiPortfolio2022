@@ -12,7 +12,7 @@ function SkillSet() {
           letterSpacing: "2px",
         }}
       >
-        My Advantage
+        Technical Skills
       </h1>
       <div className={styles.skillFlex}>
         <div>

@@ -17,17 +17,25 @@ function Education() {
       <div className={styles.flexDiv}>
         <div className={styles.textContainer}>
           <div className={styles.innerContainer}>
-            <h1>2017</h1>
-            <p>IIT Delhi</p>
+            <h1>TALKS</h1>
+            <p> Enactus VNC’s Fundraising Event</p>
+            <p className={styles.smallerPara}>Empowering Women Entrepreneurs</p>
+            <p style={{ marginTop: 50 }}>Girlup Noor</p>
             <p className={styles.smallerPara}>
-              Merit award for paper presentation
+              Talk On Moral And Economic Case Of Period Leaves
             </p>
-            <p style={{ marginTop: 50 }}>IIT Hyderabad</p>
-            <p className={styles.smallerPara}>1st Prize ELAN</p>
+            <p style={{ marginTop: 50 }}>GirlUp Delhi’s Fundraising Event</p>
+            <p className={styles.smallerPara}>Journey Of Project Qadira</p>
           </div>
         </div>
         <div className={styles.textContainer}>
-          <h1>2018</h1>
+          <h1>ACHIEVEMENTS</h1>
+          <p>IIT Delhi</p>
+          <p className={styles.smallerPara}>
+            Merit award for paper presentation
+          </p>
+          <p style={{ marginTop: 50 }}>IIT Hyderabad</p>
+          <p className={styles.smallerPara}>1st Prize ELAN</p>
           <p> Indo Japan Exchange Science Programme</p>
           <p className={styles.smallerPara}>
             Nominated for SAKURA - Fully sponsored by Japan Science And

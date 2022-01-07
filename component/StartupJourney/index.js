@@ -58,9 +58,9 @@ function StartupJourney() {
                   fontSize: "1.6rem",
                 }}
               >
-                700
+                700X
               </span>{" "}
-              X Profit
+              Profit
             </p>
           </div>
         </Link>

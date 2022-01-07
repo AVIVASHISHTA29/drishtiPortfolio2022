@@ -22,7 +22,7 @@ function MobileViewList() {
       />
       <Link
         passHref={true}
-        href="/#About"
+        href="/#aboutme"
         className={styles.headernav}
         style={{
           color: "#000",
@@ -71,7 +71,7 @@ function MobileViewList() {
       </Link>
       <Link
         passHref={true}
-        href="/#contact"
+        href="/#contactme"
         className={styles.headernav}
         style={{
           color: "#000",
