@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 function MobileViewList() {
   return (
     <List>
-      <Avatar
+      {/* <Avatar
         src="/assets/drishti.jpeg"
         style={{
           height: 100,
@@ -19,7 +19,7 @@ function MobileViewList() {
           marginBottom: "10px",
           marginTop: "30px",
         }}
-      />
+      /> */}
       <Link
         passHref={true}
         href="/#aboutme"

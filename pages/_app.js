@@ -71,12 +71,6 @@ function MyApp({ Component, pageProps }) {
           and most importantly a sucker for pizza and happy endings ."
         />
         <meta itemProp="image" content="/assets/drishti.jpeg" />
-        <link
-          rel="stylesheet"
-          media="screen, print, projection"
-          href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-        />
-        <style>{`@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css)`}</style>
       </Head>
       <Component {...pageProps} />
     </>
