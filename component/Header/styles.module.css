@@ -78,7 +78,7 @@
     width: 100%;
     left: 0%;
     position: fixed;
-    border-bottom: 2px solid #999999;
+    border-bottom: 2px solid #000;
     padding: 20px;
   }
   .rightContainer {

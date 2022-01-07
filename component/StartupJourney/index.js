@@ -42,7 +42,7 @@ function StartupJourney() {
             </p>
           </div>
         </Link>
-        <Link href="">
+        <Link href="https://instagram.com/temptationtalks?utm_medium=copy_link">
           <div className={styles.imgDiv}>
             <Image
               className={styles.imagelogo}
@@ -65,38 +65,40 @@ function StartupJourney() {
             </p>
           </div>
         </Link>
-        <div className={styles.imgDiv}>
-          <Image
-            className={styles.imagelogo}
-            src="/assets/prettypurple.png"
-            width="600"
-            height="600"
-          />
-          <h1 style={{ marginBottom: 0, marginTop: 30 }}>Pretty Purple</h1>
-          <p style={{ marginTop: 0 }}>
-            <span
-              style={{
-                fontWeight: "bold",
-                color: "#000",
-                fontSize: "1.6rem",
-              }}
-            >
-              10000+
-            </span>{" "}
-            Readers
-            <br />
-            <span
-              style={{
-                fontWeight: "bold",
-                color: "#000",
-                fontSize: "1.6rem",
-              }}
-            >
-              700{" "}
-            </span>
-            Bloggers
-          </p>
-        </div>
+        <Link href="/">
+          <div className={styles.imgDiv}>
+            <Image
+              className={styles.imagelogo}
+              src="/assets/prettypurple.png"
+              width="600"
+              height="600"
+            />
+            <h1 style={{ marginBottom: 0, marginTop: 30 }}>Pretty Purple</h1>
+            <p style={{ marginTop: 0 }}>
+              <span
+                style={{
+                  fontWeight: "bold",
+                  color: "#000",
+                  fontSize: "1.6rem",
+                }}
+              >
+                10000+
+              </span>{" "}
+              Readers
+              <br />
+              <span
+                style={{
+                  fontWeight: "bold",
+                  color: "#000",
+                  fontSize: "1.6rem",
+                }}
+              >
+                700{" "}
+              </span>
+              Bloggers
+            </p>
+          </div>
+        </Link>
       </div>
     </div>
   );

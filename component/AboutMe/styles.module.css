@@ -25,22 +25,31 @@
 }
 
 .leftContainer {
-  width: 32%;
+  display: flex;
+  width: 40%;
+  align-items: center;
 }
 
 .imgContainer {
-  width: 40%;
-  padding: 75px;
+  width: 25%;
+  padding: 40px;
   height: fit-content;
   border: 1px solid #999999;
   border-radius: 500px;
+  transition: padding ease-in 0.2s;
 }
+
+/* .imgContainer:hover {
+  padding: 60px;
+} */
 
 .imgContainer span {
   border-radius: 500px;
 }
 .rightContainer {
-  width: 32%;
+  display: flex;
+  width: 40%;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -69,5 +78,6 @@
     margin-left: auto;
     margin-right: auto !important;
     order: 1;
+    padding: 50px;
   }
 }

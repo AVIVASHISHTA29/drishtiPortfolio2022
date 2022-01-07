@@ -15,20 +15,12 @@ function AboutMe() {
             and most importantly a sucker for pizza and happy endings .
           </p>
         </div>
-        <div className={styles.textContainer}>
-          <h1>CONTACT</h1>
-          <p></p>
-        </div>
-        <div className={styles.textContainer}>
-          <h1>SERVICES</h1>
-          <p></p>
-        </div>
       </div>
       <div className={styles.imgContainer}>
         <Image src="/assets/drishti.jpeg" height="1020" width="600" />
       </div>
       <div className={styles.rightContainer}>
-        <div
+        {/* <div
           className={styles.textContainer}
           style={{ textAlign: "right", marginLeft: "auto", display: "block" }}
         >
@@ -48,6 +40,14 @@ function AboutMe() {
         >
           <h1>CLIENTS ON WORLdWIDE</h1>
           <p style={{ fontSize: "3rem" }}>+80</p>
+        </div> */}
+        <div
+          className={styles.textContainer}
+          style={{ textAlign: "right", marginLeft: "auto" }}
+        >
+          <h1>CONTACT</h1>
+          <p style={{ marginBottom: 0 }}>drishtimakhijani01@gmail.com</p>
+          <p style={{ marginTop: 0 }}>New Delhi, India</p>
         </div>
       </div>
     </div>
