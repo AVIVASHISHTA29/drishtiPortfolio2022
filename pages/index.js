@@ -17,8 +17,8 @@ export default function Home() {
       <div className={styles.container}>
         <IntroComponent />
         <AboutMe />
-        <Education />
         <StartupJourney />
+        <Education />
         <SkillSet />
         <ContactMe />
         <Footer />
