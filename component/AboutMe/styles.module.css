@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  padding-bottom: 75px;
+  border-bottom: 1.5px solid #000;
+}
+
+.textContainer {
+  margin-top: 100px;
+  width: 70%;
+  text-align: left;
+}
+
+.textContainer h1 {
+  font-family: "Spline Sans", sans-serif;
+  font-size: 1rem;
+  color: #999999;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.textContainer p {
+  font-size: 1.2rem;
+}
+
+.leftContainer {
+  width: 32%;
+}
+
+.imgContainer {
+  width: 50%;
+  padding: 75px;
+
+  border: 1px solid #999999;
+  border-radius: 500px;
+}
+
+.imgContainer span {
+  border-radius: 500px;
+}
+.rightContainer {
+  width: 32%;
+}

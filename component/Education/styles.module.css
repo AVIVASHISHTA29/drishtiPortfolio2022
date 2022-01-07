@@ -1,0 +1,46 @@
+.container {
+  border-bottom: 1px solid #000;
+  padding: 50px;
+}
+
+.flexDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: top;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textContainer {
+  padding: 20px;
+  width: 25%;
+  text-align: left;
+}
+
+.textContainer h1 {
+  font-family: "Spline Sans", sans-serif;
+  font-size: 1rem;
+  color: #999999;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.textContainer p {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.smallerPara {
+  font-size: 1rem !important;
+  font-family: "Spline Sans", sans-serif;
+  color: grey;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+.innerContainer {
+  margin-bottom: 75px;
+}
