@@ -26,6 +26,13 @@ function Education() {
             </p>
             <p style={{ marginTop: 50 }}>GirlUp Delhi’s Fundraising Event</p>
             <p className={styles.smallerPara}>Journey Of Project Qadira</p>
+            <p style={{ marginTop: 50 }}>
+              International Conference On Menstrual Hygiene Management Practices
+              By Sulabh{" "}
+            </p>
+            <p className={styles.smallerPara}>
+              Represented India in paper presentation on MHM practices{" "}
+            </p>
           </div>
         </div>
         <div className={styles.textContainer}>
@@ -42,10 +49,8 @@ function Education() {
           </p>
           <p style={{ marginTop: 50 }}>ISSET NASA</p>
           <p className={styles.smallerPara}>Team Challengers Winner</p>
-          <p>2nd Prize Delhi IIT</p>
-          <p className={styles.smallerPara}>
-            Toyota ‘Hackathon' – Indian Road Safety
-          </p>
+          <p>Toyota ‘Hackathon'</p>
+          <p className={styles.smallerPara}>2nd Prize – Indian Road Safety</p>
           <p>IIT Delhi</p>
           <p className={styles.smallerPara}>
             Merit award for paper presentation

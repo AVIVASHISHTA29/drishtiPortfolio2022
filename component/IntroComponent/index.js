@@ -26,7 +26,7 @@ function IntroComponent() {
           marginTop: "0rem",
         }}
       >
-        Social Entrepreneur
+        Entrepreneur
       </h1>
       <h1
         style={{
