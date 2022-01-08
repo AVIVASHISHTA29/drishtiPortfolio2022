@@ -42,7 +42,7 @@ function StartupJourney() {
             </p>
           </div>
         </Link>
-        <Link href="https://instagram.com/temptationtalks?utm_medium=copy_link">
+        <Link href="/">
           <div className={styles.imgDiv}>
             <Image
               className={styles.imagelogo}
