@@ -33,6 +33,12 @@ function Education() {
             <p className={styles.smallerPara}>
               Represented India in paper presentation on MHM practices{" "}
             </p>
+
+            <p style={{ marginTop: 50 }}>
+              National conference on unwrapping conversation around menstruation
+              By sarkari school and we citizens foundation
+            </p>
+            <p className={styles.smallerPara}>Guest speaker</p>
           </div>
         </div>
         <div className={styles.textContainer}>
