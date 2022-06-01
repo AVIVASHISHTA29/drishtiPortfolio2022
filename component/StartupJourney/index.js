@@ -36,7 +36,7 @@ function StartupJourney() {
                   fontSize: "1.6rem",
                 }}
               >
-                +500{" "}
+                +7000{" "}
               </span>
               Lives Impacted Within 4 Months
             </p>
