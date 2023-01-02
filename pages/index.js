@@ -6,6 +6,7 @@ import Education from "../component/Education";
 import Footer from "../component/Footer";
 import Header from "../component/Header";
 import IntroComponent from "../component/IntroComponent";
+import MediaCoverage from "../component/MediaCoverage";
 import SkillSet from "../component/SkillSet";
 import StartupJourney from "../component/StartupJourney";
 import styles from "../styles/Home.module.css";
@@ -19,7 +20,8 @@ export default function Home() {
         <AboutMe />
         <StartupJourney />
         <Education />
-        <SkillSet />
+        {/* <SkillSet /> */}
+        <MediaCoverage />
         <ContactMe />
         <Footer />
       </div>

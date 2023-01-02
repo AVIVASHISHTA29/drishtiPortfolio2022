@@ -18,8 +18,27 @@ function Education() {
         <div className={styles.textContainer}>
           <div className={styles.innerContainer}>
             <h1>TALKS</h1>
-            <p> Enactus VNC’s Fundraising Event</p>
+            <p>Keynote speaker bennovate(Times Group)</p>
+            <p className={styles.smallerPara}>Student enterprenurship</p>
+
+            <p style={{ marginTop: 50 }}>
+              Panelist unwrapping conversation around menstruation{" "}
+            </p>
+            <p className={styles.smallerPara}>Project Vedna </p>
+
+            <p style={{ marginTop: 50 }}>
+              Celebrating Women Enterprenurship By
+            </p>
+            <p className={styles.smallerPara}>
+              German Cooperation and Government of India
+            </p>
+
+            <p style={{ marginTop: 50 }}>Enactus Bennett University</p>
+            <p className={styles.smallerPara}>From idea to startup</p>
+
+            <p style={{ marginTop: 50 }}> Enactus VNC’s Fundraising Event</p>
             <p className={styles.smallerPara}>Empowering Women Entrepreneurs</p>
+
             <p style={{ marginTop: 50 }}>Girlup Noor</p>
             <p className={styles.smallerPara}>
               Talk On Moral And Economic Case Of Period Leaves
@@ -43,7 +62,20 @@ function Education() {
         </div>
         <div className={styles.textContainer}>
           <h1>ACHIEVEMENTS</h1>
-          <p>Indo Russian International Exchange Programme</p>
+          <p>Invited as a judge at SPARK TANK</p>
+          <p className={styles.smallerPara}>Bennett University (Times Group)</p>
+
+          <p style={{ marginTop: 50 }}>
+            Invited as a judge at vichar building sustainable settlement plan
+          </p>
+          <p className={styles.smallerPara}>Jesus and Mary College,DU</p>
+
+          <p style={{ marginTop: 50 }}>Delhi Finalist (top 10 out of 200)</p>
+          <p className={styles.smallerPara}>EO GSEA</p>
+
+          <p style={{ marginTop: 50 }}>
+            Indo Russian International Exchange Programme
+          </p>
           <p className={styles.smallerPara}>
             Represented India For The Science Talent Programme - Sponsored by
             Govt. of India

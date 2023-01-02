@@ -42,15 +42,15 @@ function StartupJourney() {
             </p>
           </div>
         </Link>
-        <Link href="/">
+        <Link href="https://www.qadirahygiene.com">
           <div className={styles.imgDiv}>
             <Image
               className={styles.imagelogo}
-              src="/assets/tempt.jpeg"
-              width="432"
-              height="486"
+              src="/assets/hygiene.png"
+              width="1080"
+              height="381"
             />
-            <h1 style={{ marginBottom: 0, marginTop: 30 }}>Temptation Talk</h1>
+            <h1 style={{ marginBottom: 0, marginTop: 30 }}>Qadira Hygiene</h1>
             <p style={{ marginTop: 0 }}>
               <span
                 style={{
@@ -59,9 +59,22 @@ function StartupJourney() {
                   fontSize: "1.6rem",
                 }}
               >
-                700X
+                200+
               </span>{" "}
-              Profit
+              Happy Customers
+            </p>
+            <p style={{ marginTop: 0 }}>
+              In
+              <span
+                style={{
+                  fontWeight: "bolder",
+                  color: "#000",
+                  fontSize: "1.6rem",
+                }}
+              >
+                {" "}
+                2 Months
+              </span>{" "}
             </p>
           </div>
         </Link>

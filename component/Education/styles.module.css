@@ -54,6 +54,7 @@
   .flexDiv {
     flex-direction: column !important;
     align-items: center;
+    justify-content: center;
   }
   .textContainer {
     width: 80%;
