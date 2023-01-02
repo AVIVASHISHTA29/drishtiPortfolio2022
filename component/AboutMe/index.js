@@ -18,7 +18,7 @@ function AboutMe() {
         </div>
       </div>
       <div className={styles.imgContainer}>
-        <Image src="/assets/drishti.jpeg" height="1020" width="600" />
+        <Image src="/assets/drishti.jpeg" height="932" width="479" />
       </div>
       <div className={styles.rightContainer}>
         {/* <div
