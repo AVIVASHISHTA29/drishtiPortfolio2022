@@ -8,11 +8,12 @@ function AboutMe() {
         <div className={styles.textContainer}>
           <h1>About Me</h1>
           <p>
-            Meet Drishti Makhijani a 20 year old , changing the world one period
-            at a time .she is the founder of project qadira , a CS student,
-            kathak dancer and a visual artist . She has a zest for food life and
-            basically anything that challenges her . She is a go getter by heart
-            and most importantly a sucker for pizza and happy endings .
+            Meet Drishti Makhijani a 21 year old , changing the world one period
+            at a time .she is the founder of project qadira and qadira hygiene,
+            a CS student, kathak dancer and a visual artist . She has a zest for
+            food life and basically anything that challenges her . She is a go
+            getter by heart and most importantly a sucker for pizza and happy
+            endings .
           </p>
         </div>
       </div>
