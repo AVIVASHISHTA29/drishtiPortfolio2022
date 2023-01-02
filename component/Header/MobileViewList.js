@@ -73,6 +73,22 @@ function MobileViewList() {
       </Link>
       <Link
         passHref={true}
+        href="/#media"
+        className={styles.headernav}
+        style={{
+          color: "#000",
+          opacity: 0.5,
+          display: "flex",
+          alignItems: "center",
+          textDecoration: "none",
+        }}
+      >
+        <ListItem>
+          <ListItemText primary="Media Coverage" />
+        </ListItem>
+      </Link>
+      <Link
+        passHref={true}
         href="/#contactme"
         className={styles.headernav}
         style={{

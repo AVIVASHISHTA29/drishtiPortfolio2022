@@ -41,6 +41,9 @@ function Header() {
             <Link href="/#achievments">
               <p className={styles.navLinks}>Experience</p>
             </Link>
+            <Link href="/#media">
+              <p className={styles.navLinks}>Media </p>
+            </Link>
             <Link href="/#contactme">
               <p className={styles.navLinks}>Contact Me</p>
             </Link>

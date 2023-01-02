@@ -25,7 +25,7 @@ function MediaCoverage() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="media">
       <h1
         style={{
           fontSize: "4rem",
