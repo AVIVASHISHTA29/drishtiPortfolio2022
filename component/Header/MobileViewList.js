@@ -89,7 +89,7 @@ function MobileViewList() {
       </Link>
       <Link
         passHref={true}
-        href="/#contactme"
+        href="https://drive.google.com/file/d/1wf-Vzh8dMdcN0GQ8SLC8UWTtS_cTZzcW/view?usp=share_link"
         className={styles.headernav}
         style={{
           color: "#000",
@@ -100,7 +100,7 @@ function MobileViewList() {
         }}
       >
         <ListItem>
-          <ListItemText primary="Contact" />
+          <ListItemText primary="My Resume" />
         </ListItem>
       </Link>
 

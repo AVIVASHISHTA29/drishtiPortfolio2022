@@ -44,8 +44,8 @@ function Header() {
             <Link href="/#media">
               <p className={styles.navLinks}>Media </p>
             </Link>
-            <Link href="/#contactme">
-              <p className={styles.navLinks}>Contact Me</p>
+            <Link href="https://drive.google.com/file/d/1wf-Vzh8dMdcN0GQ8SLC8UWTtS_cTZzcW/view?usp=share_link">
+              <p className={styles.navLinks}>My Resume </p>
             </Link>
           </div>
           <div className={styles.rightContainer}>
